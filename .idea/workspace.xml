@@ -10,7 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="929e73e7-7486-484e-81b8-f7a9ad4c3f34" name="Changes" comment="This is simple weather app made using open weather api and backend is written using JAVA and for front end">
-      <change beforePath="$PROJECT_DIR$/weatherapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/weatherapp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +38,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Akshay-k-baburaj"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Akshay-k-baburaj/weather-app.git",
+    "accountId": "ae127e75-19d2-424d-afcf-0a76e9897907"
+  }
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -57,7 +69,7 @@
   "keyToString": {
     "Application.AppLauncher.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "b72c8cf4",
+    "git-widget-placeholder": "dd8d18a0",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Akshay/IdeaProjects/weatherapp",
