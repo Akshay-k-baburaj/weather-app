@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
-// retreive weather data from API - this backend logic will fetch the latest weather
+// retrieve weather data from API - this backend logic will fetch the latest weather
 // data from the external API and return it. The GUI will
 // display this data to the user
 public class WeatherApp {
@@ -77,7 +77,7 @@ public class WeatherApp {
             JSONArray relativeHumidity = (JSONArray) hourly.get("relativehumidity_2m");
             long humidity = (long) relativeHumidity.get(index);
 
-            // get windspeed
+            // get wind speed
             JSONArray windspeedData = (JSONArray) hourly.get("windspeed_10m");
             double windspeed = (double) windspeedData.get(index);
 

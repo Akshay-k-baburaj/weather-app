@@ -20,6 +20,7 @@ public class WeatherAppGui extends JFrame {
         // configure gui to end the program's process once it has been closed
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 
+
         // set the size of our gui (in pixels)
         setSize(450, 650);
 
@@ -48,7 +49,7 @@ public class WeatherAppGui extends JFrame {
         add(searchTextField);
 
         // weather image
-        JLabel weatherConditionImage = new JLabel(loadImage("src/assets/cloudy.png"));
+        JLabel weatherConditionImage = new JLabel(loadImage("C:\\Users\\Akshay\\IdeaProjects\\weatherapp\\src\\cloudy.png"));
         weatherConditionImage.setBounds(0, 125, 450, 217);
         add(weatherConditionImage);
 
@@ -69,7 +70,7 @@ public class WeatherAppGui extends JFrame {
         add(weatherConditionDesc);
 
         // humidity image
-        JLabel humidityImage = new JLabel(loadImage("src/assets/humidity.png"));
+        JLabel humidityImage = new JLabel(loadImage("C:\\Users\\Akshay\\IdeaProjects\\weatherapp\\src\\humidity.png"));
         humidityImage.setBounds(15, 500, 74, 66);
         add(humidityImage);
 
@@ -80,7 +81,7 @@ public class WeatherAppGui extends JFrame {
         add(humidityText);
 
         // windspeed image
-        JLabel windspeedImage = new JLabel(loadImage("src/assets/windspeed.png"));
+        JLabel windspeedImage = new JLabel(loadImage("C:\\Users\\Akshay\\IdeaProjects\\weatherapp\\src\\windspeed.png"));
         windspeedImage.setBounds(220, 500, 74, 66);
         add(windspeedImage);
 
@@ -91,7 +92,7 @@ public class WeatherAppGui extends JFrame {
         add(windspeedText);
 
         // search button
-        JButton searchButton = new JButton(loadImage("src/assets/search.png"));
+        JButton searchButton = new JButton(loadImage("C:\\Users\\Akshay\\IdeaProjects\\weatherapp\\src\\search.png"));
 
         // change the cursor to a hand cursor when hovering over this button
         searchButton.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
@@ -118,16 +119,16 @@ public class WeatherAppGui extends JFrame {
                 // depending on the condition, we will update the weather image that corresponds with the condition
                 switch(weatherCondition){
                     case "Clear":
-                        weatherConditionImage.setIcon(loadImage("src/assets/clear.png"));
+                        weatherConditionImage.setIcon(loadImage("C:\\Users\\Akshay\\IdeaProjects\\weatherapp\\src\\clear.png"));
                         break;
                     case "Cloudy":
-                        weatherConditionImage.setIcon(loadImage("src/assets/cloudy.png"));
+                        weatherConditionImage.setIcon(loadImage("C:\\Users\\Akshay\\IdeaProjects\\weatherapp\\src\\cloudy.png"));
                         break;
                     case "Rain":
-                        weatherConditionImage.setIcon(loadImage("src/assets/rain.png"));
+                        weatherConditionImage.setIcon(loadImage("C:\\Users\\Akshay\\IdeaProjects\\weatherapp\\src\\rain.png"));
                         break;
                     case "Snow":
-                        weatherConditionImage.setIcon(loadImage("src/assets/snow.pngImage"));
+                        weatherConditionImage.setIcon(loadImage("C:\\Users\\Akshay\\IdeaProjects\\weatherapp\\src\\snow.png"));
                         break;
                 }
 
